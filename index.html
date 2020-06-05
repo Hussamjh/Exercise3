@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Husam Haidarah</title>
-    
+    <link  rel="stylesheet" href="css/main.css">
+    <script src="js/Jquery.js">
+
+    </script>
 </head>
 <body>
 <header>
@@ -11,26 +14,36 @@
     <h2>Husam Haidarah</h2>
 </header>
 <main>
-    <div class="img">
-        <img src="images/Small%20Cat.png" width="100%"height="100%">
-    </div>
-    <div class="buttons">
-        <label>Mew</label>
-        <input  type="radio"name="message"value="Mew" id="Mew">
-        <label>Purr</label>
-        <input  type="radio"name="message"value="Purr" id="Purr">
-        <label>Hiss</label>
-        <input  type="radio"name="message"value="Hiss" id="Hiss">
-        <br>
-        <label>Urgent</label>
-        <input type="checkbox" id="Urgent">
-        <br>
-        <button id="Send">Send</button>
-    </div>
+    <center>
+        <div class="img">
+            <img src="images/Small%20Cat.png" width="100%"height="100%">
+
+        </div>
+        <div class="buttons">
+            <form id="form">
+                <label>Mew</label>
+                <input  type="radio"name="message"value="Mew" id="Mew" checked="true">
+                <label>Purr</label>
+                <input  type="radio"name="message"value="Purr" id="Purr">
+                <label>Hiss</label>
+                <input  type="radio"name="message"value="Hiss" id="Hiss">
+                <br>
+                <input type="checkbox" id="urgent" name="Urgent">
+                <label>Urgent</label>
+                <br>
+                <button id="send">Send</button>
+            </form>
+
+        </div>
+    </center>
 </main>
 <footer>
     <p>Husam Haidara</p>
     <p>991475194</p>
 </footer>
 </body>
+
+<script src="js/main.js">
+</script>
+
 </html>
